@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   body {
-    @apply container mx-auto my-10
+    @apply container mx-auto my-10 bg-slate-200;
+  }
+
+  html {
+    @apply scroll-smooth;
+    font-family: 'Titillium Web', sans-serif;
   }
 }

@@ -9,18 +9,18 @@ const Layout = ({ children }) => {
   return (
     <>
       <Router>
-        <nav className='my-8'>
-          <ul className='flex flex-row justify-center gap-4'>
-            <li>
+        <nav>
+          <ul className='flex flex-row justify-center gap-x-6 text-lg'>
+            <li className='hover:cursor-pointer hover:text-sky-500'>
               <Link to='/'>Home</Link>
             </li>
-            <li>
+            <li className='hover:cursor-pointer hover:text-sky-500'>
               <Link to='/projects'>Projects</Link>
             </li>
-            <li>
+            <li className='hover:cursor-pointer hover:text-sky-500'>
               <Link to='/resume'>Resume</Link>
             </li>
-            <li>
+            <li className='hover:cursor-pointer hover:text-sky-500'>
               <Link to='/contact'>Contact</Link>
             </li>
           </ul>
